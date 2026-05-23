@@ -10,10 +10,10 @@ export default function Footer() {
         <div className="footer__brand">
           <Link href="/">
             <Image
-              src="/logos/logo-large.svg"
+              src="/logos/logo-white.png"
               alt="Redwood Roofing Pro"
-              width={239}
-              height={58}
+              width={250}
+              height={68}
               className="footer__logo"
               style={{ height: "auto" }}
             />

@@ -91,10 +91,10 @@ export default function AboutSection() {
             <div className="about__exp-box w-full! md:w-fit! flex! flex-row! gap-10!">
               <div className="about__exp-icon">
                 <Image
-                  src="/logos/logo-94.svg"
-                  alt="Redwood Roofing Pro icon"
-                  width={40}
-                  height={40}
+                  src="/logos/logo-color.png"
+                  alt="Redwood Roofing Pro"
+                  width={100}
+                  height={28}
                 />
               </div>
               <div className="about__exp-content flex flex-row gap-4">

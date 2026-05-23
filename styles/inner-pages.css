@@ -1,6 +1,6 @@
 /* =================================================
    INNER PAGES CSS — shared across all non-homepage pages
-   unclogme.com clone
+   inner page styles
    ================================================= */
 
 /* ─── SERVICE DETAIL (sidebar + main layout) ────── */
@@ -429,7 +429,7 @@
   }
 }
 
-/* ─── BECOME AN UNCLOGGER ───────────────────────── */
+/* ─── BECOME SECTION ───────────────────────────── */
 .become-section {
   padding: 80px 20px;
   background: var(--color-white);
