@@ -108,7 +108,7 @@ export default function PricingSection() {
               className={`pricing-card${card.highlight ? " pricing-card--highlight" : ""}`}
             >
               {card.highlight && (
-                <div className="pricing-card__badge">Best Choice</div>
+                <div className="pricing-card__badge">Most Popular</div>
               )}
               <div className="pricing-card__body">
                 {/* Price */}

@@ -48,4 +48,17 @@ export const pricingCards: PricingCard[] = [
     description:
       "Storm damage and active leaks don't wait. Call us directly and we'll dispatch a crew to protect your home.",
   },
+  {
+    price: 0,
+    note: "Scheduled. Documented.",
+    title: "Annual Maintenance",
+    features: [
+      "Full roof inspection",
+      "Gutter clearing & downspout flush",
+      "Minor repairs included",
+      "Priority scheduling year-round",
+    ],
+    description:
+      "Catch small problems before they become big ones. Our annual plan keeps your roof in peak condition and extends its lifespan.",
+  },
 ];

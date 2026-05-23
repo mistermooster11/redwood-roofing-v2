@@ -74,11 +74,7 @@ export default function HeroSection() {
         <hr className="hero__divider" ref={dividerRef} />
 
         <p className="hero__description" ref={descRef}>
-          Full-service roof repair, replacement, and storm damage response
-          <br />
-          throughout Redwood City and San Mateo County — free inspections,
-          <br />
-          written estimates, licensed crew.
+          Full-service roof repair, replacement, and storm damage response throughout Redwood City and San Mateo County — free inspections, written estimates, licensed crew.
         </p>
 
         <div className="hero__buttons" ref={buttonsRef}>
