@@ -1,0 +1,40 @@
+/* Redwood Roofing Pro — Brand Color Override
+ * Overrides Unclog template defaults with Redwood Roofing Pro brand palette.
+ * Import AFTER globals.css in layout.tsx.
+ */
+
+:root {
+  /* Redwood Roofing brand palette */
+  --color-accent:      #FFB232;   /* Warm orange-gold — CTA buttons, highlights */
+  --color-dark:        #00622C;   /* Deep forest green — header, footer, overlays */
+  --color-dark-2:      #004d22;   /* Darker green — CTA sections */
+  --color-secondary:   #000000;   /* Black — text contrast */
+  --color-text:        #4A5257;   /* Gray — body copy */
+  --color-red-light:   #FFB232;   /* Same as accent — checkmarks, bullets */
+  --color-primary:     #EEF3F7;   /* Light blue-gray — section backgrounds */
+  --color-bg-light:    #FAFAFA;   /* Off-white — alternating backgrounds */
+  --color-light-gray:  #C5D0D7;   /* Borders, dividers */
+  --color-white:       #FFFFFF;   /* White — light surfaces, text on dark */
+}
+
+/* Ensure accent-colored buttons use dark text (light bg = dark text) */
+.hero__btn-primary,
+.btn-quote,
+.about__btn,
+.need-services__btn,
+.cta-form__submit {
+  color: #000000;
+}
+
+/* Ensure topbar and dark sections use white text */
+.topbar,
+.footer {
+  color: #ffffff;
+}
+
+/* Accent hover states */
+.btn-quote:hover,
+.hero__btn-primary:hover {
+  background-color: #e09e20;
+  color: #000000;
+}
