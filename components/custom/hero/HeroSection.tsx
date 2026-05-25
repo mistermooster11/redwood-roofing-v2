@@ -59,12 +59,14 @@ export default function HeroSection() {
           aria-hidden="true"
           style={{
             position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
+            top: "50%",
+            left: "50%",
+            width: "100vw",
+            height: "56.25vw",   /* 16:9 in vw */
+            minHeight: "100%",
+            minWidth: "177.78vh", /* 16:9 in vh */
+            transform: "translate(-50%, -50%)",
             border: "none",
-            objectFit: "cover",
           }}
         />
       </div>
