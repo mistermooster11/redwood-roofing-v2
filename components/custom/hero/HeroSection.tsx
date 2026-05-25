@@ -51,13 +51,21 @@ export default function HeroSection() {
 
   return (
     <section className="hero">
-      {/* Image background */}
+      {/* Video background — Cloudflare Stream (background mode: autoplay, muted, loop, no controls) */}
       <div className="hero__video-bg">
-        <img
-          src="/images/roofing-crew-installing-shingles-aerial-view.jpg"
-          alt=""
+        <iframe
+          src="https://customer-ip9lnkk65px0t3ak.cloudflarestream.com/763e656c9cc93e0011a3131920dcd04f/iframe?autoplay=true&muted=true&loop=true&preload=true&background=true"
+          allow="autoplay; fullscreen; picture-in-picture"
           aria-hidden="true"
-          style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            border: "none",
+            objectFit: "cover",
+          }}
         />
       </div>
 
