@@ -82,7 +82,7 @@ export default function PricingSection() {
       {/* Header */}
       <div className="pricing__header">
         <div className="pricing__label">Pricing</div>
-        <h2 className="pricing__heading">Request for intervention</h2>
+        <h2 className="pricing__heading">How We Work</h2>
         <p className="pricing__subtext">
           Clear and upfront process for residential and commercial roofing
           cleaning, emergency services, and ongoing maintenance — with no hidden fees

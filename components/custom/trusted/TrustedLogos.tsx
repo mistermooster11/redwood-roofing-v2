@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useRef, useEffect } from "react";
 
 export default function TrustedLogos() {
@@ -46,32 +45,21 @@ export default function TrustedLogos() {
           Trusted by Miami&rsquo;s Top Restaurants &amp; Properties
         </h2>
         <div className="trusted__logos">
-          <div className="trusted__logo-item">
-            <Image
-              src="/images/logos-restaurante-2.png"
-              alt="Restaurant Logo"
-              width={138}
-              height={80}
-              style={{ height: "60px", width: "auto" }}
-            />
+          <div className="trusted__logo-item" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: "4px" }}>
+            <span style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.08em", color: "currentColor", opacity: 0.5, textTransform: "uppercase" }}>GAF</span>
+            <span style={{ fontSize: "13px", fontWeight: 600, color: "currentColor" }}>Master Elite Certified</span>
           </div>
-          <div className="trusted__logo-item">
-            <Image
-              src="/images/logo-joia-beach.png"
-              alt="Joia Beach Logo"
-              width={265}
-              height={80}
-              style={{ height: "60px", width: "auto" }}
-            />
+          <div className="trusted__logo-item" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: "4px" }}>
+            <span style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.08em", color: "currentColor", opacity: 0.5, textTransform: "uppercase" }}>CertainTeed</span>
+            <span style={{ fontSize: "13px", fontWeight: 600, color: "currentColor" }}>ShingleMaster™</span>
           </div>
-          <div className="trusted__logo-item">
-            <Image
-              src="/images/logos-restaurante-1.png"
-              alt="Restaurant Logo"
-              width={118}
-              height={78}
-              style={{ height: "60px", width: "auto" }}
-            />
+          <div className="trusted__logo-item" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: "4px" }}>
+            <span style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.08em", color: "currentColor", opacity: 0.5, textTransform: "uppercase" }}>Owens Corning</span>
+            <span style={{ fontSize: "13px", fontWeight: 600, color: "currentColor" }}>Preferred Contractor</span>
+          </div>
+          <div className="trusted__logo-item" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: "4px" }}>
+            <span style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.08em", color: "currentColor", opacity: 0.5, textTransform: "uppercase" }}>BBB</span>
+            <span style={{ fontSize: "13px", fontWeight: 600, color: "currentColor" }}>A+ Accredited</span>
           </div>
         </div>
         <p className="trusted__disclaimer text-center text-xs mt-4">

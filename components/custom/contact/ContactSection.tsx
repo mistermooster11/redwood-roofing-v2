@@ -94,12 +94,12 @@ export default function ContactSection() {
             <div className="contact-section__details-col">
               <h5 className="contact-detail__label">Phone</h5>
               <p className="contact-detail__value">
-                <Link href="tel:(650) 339 5638">(650) 339 5638</Link>
+                <Link href="tel:6508221222">(650) 822-1222</Link>
               </p>
 
               <h5 className="contact-detail__label">Email</h5>
               <p className="contact-detail__value">
-                <Link href="mailto:info@redwoodrooofingpro.com">info@redwoodrooofingpro.com</Link>
+                <Link href="mailto:info@redwoodroofingpro.com">info@redwoodroofingpro.com</Link>
               </p>
             </div>
 
