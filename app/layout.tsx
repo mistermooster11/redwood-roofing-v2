@@ -76,7 +76,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <PageTransition />
-        <SalePopup businessName="Redwood Roofing Pro" expiryDate="June 7, 2026" trade="roofers" />
+        <SalePopup businessName="Redwood Roofing Pro" expiryDate="June 15, 2026" trade="roofers" />
         <Header />
         <main>{children}</main>
         <Footer />
