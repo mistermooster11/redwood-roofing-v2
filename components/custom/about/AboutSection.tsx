@@ -82,10 +82,10 @@ export default function AboutSection() {
         <div className="about__media">
           <div className="about__img-wrap">
             <Image
-              src="/images/roofers-installing-shingles-teamwork.jpg"
-              alt="Redwood Roofing Pro crew"
-              width={690}
-              height={613}
+              src="/images/chimney-inspection-repair-rooftop-worker.jpg"
+              alt="Redwood Roofing Pro crew working on chimney"
+              width={1456}
+              height={816}
               className="about__img"
             />
             <div className="about__exp-box w-full! md:w-fit! flex! flex-row! gap-10!">
