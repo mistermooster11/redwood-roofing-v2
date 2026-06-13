@@ -43,7 +43,7 @@ export default function TrustedLogos() {
     <section className="trusted" ref={sectionRef}>
       <div className="trusted__inner">
         <h2 className="trusted__heading">
-          Trusted by Redwood City &amp; San Mateo County
+          Trusted by Redwood City &amp; San Mateo County Businesses
         </h2>
         <div className="trusted__logos">
           <div className="trusted__logo-item">
